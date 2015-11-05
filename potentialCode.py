@@ -265,7 +265,7 @@ def plotsifi(objs, p1=(-5, -5), p2 = (5, 5), fi = False):
         Zfi = np.zeros(X.shape)
         Zfi = Zfi + obj.fi(X, Y)
         contourplot(X, Y, Zfi, "Potential lines in the flowfield")
-    #plt.show()
+    plt.show()
 
 def plotquiver(objs, p1=(-5, -5), p2 = (5, 5)):
     """
